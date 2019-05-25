@@ -20,6 +20,7 @@ function maxChar(str) {
       maxChar = letter;
     }
   }
+  
   return maxChar;
 }
 

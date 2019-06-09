@@ -15,13 +15,20 @@ function maxChar(str) {
   }
 
   for (let letter in charMap) {
+   
     if (charMap[letter] > max) {
+      
+      
       max = charMap[letter];
       maxChar = letter;
     }
   }
+  console.log(maxChar);
   
   return maxChar;
+  
 }
+
+maxChar('hello')
 
 module.exports = maxChar;

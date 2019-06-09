@@ -29,3 +29,18 @@ module.exports = reverse;
 //     .reverse()
 //     .join('');
 // }
+
+
+function reverseStr (str) {
+  let reversed = ''
+
+  for (let i = 0; i < str.length; i++) {
+    const reversedString = str[i];
+    console.log(reversedString);
+    reversed = reversedString  +  reversed
+    console.log(reversed);
+    
+  }
+}
+
+reverseStr('hello')
